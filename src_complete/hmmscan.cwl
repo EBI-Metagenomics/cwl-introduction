@@ -76,6 +76,8 @@ arguments:
   - valueFrom: "--noali"
     position: 1
 
+stdout: stdout
+
 outputs:
   domtblout:
     type: File

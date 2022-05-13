@@ -29,6 +29,9 @@ arguments:
   - prefix: -a
     valueFrom: $(inputs.input_fasta.nameroot)_predicted_cds.faa
 
+stdout: stdout
+# stderr: stderr
+
 outputs:
   output_fasta:
     type: File
