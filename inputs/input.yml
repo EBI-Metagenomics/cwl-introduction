@@ -1,0 +1,20 @@
+assembly_fasta:
+  class: File
+  path: assembly.fasta
+  format: http://edamontology.org/format_1929
+hmmdb:
+  class: File
+  path: pfam-A-subset.hmm
+h3m:
+  class: File
+  path: pfam-A-subset.hmm.h3m
+h3i:
+  class: File
+  path: pfam-A-subset.hmm.h3i
+h3f:
+  class: File
+  path: pfam-A-subset.hmm.h3f
+h3p:
+  class: File
+  path: pfam-A-subset.hmm.h3p
+
